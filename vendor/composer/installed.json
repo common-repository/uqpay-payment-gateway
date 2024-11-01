@@ -1,0 +1,48 @@
+[
+    {
+        "name": "uqpay/uqpay_php",
+        "version": "v3.2.3",
+        "version_normalized": "3.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uqpaytechnology/uqpay-php.git",
+            "reference": "2664aa4db980e6687d1feaab256809af9633a200"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/uqpaytechnology/uqpay-php/zipball/2664aa4db980e6687d1feaab256809af9633a200",
+            "reference": "2664aa4db980e6687d1feaab256809af9633a200",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-openssl": "*",
+            "php": ">=5.6"
+        },
+        "time": "2020-04-10T04:15:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "uqpay\\payment\\": "lib/UQPay"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "uqpay",
+                "email": "zw@uqpay.com"
+            }
+        ],
+        "description": "UQPay Gateway PHP Server Library",
+        "homepage": "https://developer.uqpay.com/api/#/",
+        "keywords": [
+            "payment",
+            "uqpay"
+        ]
+    }
+]

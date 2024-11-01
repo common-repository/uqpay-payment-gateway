@@ -1,0 +1,334 @@
+# Copyright (C) 2020 UQPAY
+# This file is distributed under the same license as the Uqpay Payment Gateway plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Uqpay Payment Gateway 1.1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-gateway-uqpay\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-04-21T06:53:10+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: uqpay-payment-gateway\n"
+
+#. Plugin Name of the plugin
+msgid "Uqpay Payment Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/uqpay-payment-gateway/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Let your woocommerce support mainstream payment channels by UQPAY."
+msgstr ""
+
+#. Author of the plugin
+msgid "UQPAY"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.uqpay.com"
+msgstr ""
+
+#. translators: 1) merchant register url 2) merchant dashboard url
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:36
+msgid "All other general UQPAY settings can be adjusted <a href=\"%s\">here</a>."
+msgstr ""
+
+#. translators: 1) website name 2) order number
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:178
+msgid "%1$s - Order %2$s"
+msgstr ""
+
+#. translators: 1) dollar amount
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:240
+msgid "Sorry, the minimum allowed order total is %1$s to use this payment method."
+msgstr ""
+
+#. translators: 1) dollar amount 2) transaction id 3) refund message
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:294
+msgid "Refund authorized (Refunded %1$s - UQPAY Refund ID: %2$s - Reason: %3$s), The async notification from UQPAY will final confirm this refund."
+msgstr ""
+
+#. translators: error code
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:334
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:365
+msgid "Payment error code: %s."
+msgstr ""
+
+#. translators: uqpay order id
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:339
+msgid "UQPAY payment authorized (Payment ID: %s). But the payment complete timeout."
+msgstr ""
+
+#. translators: uqpay order id
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:345
+msgid "UQPAY payment authorized (Payment ID: %s). The QR Code was generated, and waiting for consumer to scan the code."
+msgstr ""
+
+#. translators: uqpay order id
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:359
+msgid "UQPAY payment authorized (Payment ID: %s). The async notification from UQPAY will final confirm this trade."
+msgstr ""
+
+#. translators: uqpay order id
+#: includes/abstracts/abstract-wc-uqpay-payment-gateway.php:373
+msgid "UQPAY payment complete (UQPAY Order ID: %s)"
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:9
+#: includes/admin/uqpay-union-online-settings.php:9
+#: includes/admin/uqpay-union-qr-settings.php:9
+#: includes/admin/uqpay-wechat-qr-settings.php:9
+msgid "Be sure this payment method has be activated, check from your UQPAY Dashboard <a href=\"https://merchant.uqpay.com\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:13
+#: includes/admin/uqpay-settings.php:13
+#: includes/admin/uqpay-union-online-settings.php:13
+#: includes/admin/uqpay-union-qr-settings.php:13
+#: includes/admin/uqpay-wechat-qr-settings.php:13
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:14
+msgid "Enable Alipay Online QR By UQPAY"
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:20
+#: includes/admin/uqpay-union-online-settings.php:20
+#: includes/admin/uqpay-union-qr-settings.php:20
+#: includes/admin/uqpay-wechat-qr-settings.php:20
+msgid "Title"
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:22
+#: includes/admin/uqpay-union-online-settings.php:22
+#: includes/admin/uqpay-union-qr-settings.php:22
+#: includes/admin/uqpay-wechat-qr-settings.php:22
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:23
+#: includes/payment-methods/class-wc-gateway-uqpay-alipay-qr.php:29
+#: uqpay-payment-gateway.php:176
+msgid "Alipay Online QR (UQPAY)"
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:27
+#: includes/admin/uqpay-union-online-settings.php:27
+#: includes/admin/uqpay-union-qr-settings.php:27
+#: includes/admin/uqpay-wechat-qr-settings.php:27
+msgid "Description"
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:29
+#: includes/admin/uqpay-union-online-settings.php:29
+#: includes/admin/uqpay-union-qr-settings.php:29
+#: includes/admin/uqpay-wechat-qr-settings.php:29
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:30
+msgid "You can pay by scan the Alipay QR through the Alipay APP"
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:34
+#: includes/admin/uqpay-union-qr-settings.php:34
+#: includes/admin/uqpay-wechat-qr-settings.php:34
+msgid "Order Pay message"
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:36
+#: includes/admin/uqpay-union-qr-settings.php:36
+#: includes/admin/uqpay-wechat-qr-settings.php:36
+msgid "This controls the description which the user sees during checkout on order pay page."
+msgstr ""
+
+#: includes/admin/uqpay-alipay-qr-settings.php:37
+#: includes/admin/uqpay-union-qr-settings.php:37
+#: includes/admin/uqpay-wechat-qr-settings.php:37
+msgid "Please scan the QR code below to complete the payment"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:9
+msgid "Here is the general configuration of UQPAY service. Before enabling the payment methods provided by UQPAY, please be sure to complete the configuration"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:14
+msgid "Enable UQPAY Service"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:20
+msgid "Merchant ID"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:22
+msgid "Set your merchant ID."
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:27
+msgid "Test mode"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:28
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:30
+msgid "Place the payment gateway in test mode using test API credentials."
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:35
+msgid "Test Publishable Key"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:37
+#: includes/admin/uqpay-settings.php:63
+msgid "Download API credentials from UQPAY dashboard, copy the content of UQPAY_pub.pem here."
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:42
+msgid "Test Private Key Type"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:43
+#: includes/admin/uqpay-settings.php:69
+msgid "Key Type"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:45
+#: includes/admin/uqpay-settings.php:71
+msgid "Select the private key type you would like to use."
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:49
+#: includes/admin/uqpay-settings.php:75
+msgid "SIGN_TYPE_RSA"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:50
+#: includes/admin/uqpay-settings.php:76
+msgid "SIGN_TYPE_MD5"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:54
+msgid "Test Private Key"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:56
+#: includes/admin/uqpay-settings.php:82
+msgid "Download API credentials from UQPAY dashboard, copy the content of id_prv.pem (for rsa) or  md5Key.txt (for md5)."
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:61
+msgid "Publishable Key"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:68
+msgid "Private Key Type"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:80
+msgid "Private Key"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:87
+msgid "Logging"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:88
+msgid "Log debug messages"
+msgstr ""
+
+#: includes/admin/uqpay-settings.php:90
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr ""
+
+#: includes/admin/uqpay-union-online-settings.php:14
+msgid "Enable UnionPay Online By UQPAY"
+msgstr ""
+
+#: includes/admin/uqpay-union-online-settings.php:23
+#: includes/payment-methods/class-wc-gateway-uqpay-union-online.php:25
+#: uqpay-payment-gateway.php:174
+msgid "UnionPay Online (UQPAY)"
+msgstr ""
+
+#: includes/admin/uqpay-union-online-settings.php:30
+msgid "You will be redirected to UnionPay Online."
+msgstr ""
+
+#: includes/admin/uqpay-union-qr-settings.php:14
+msgid "Enable UnionPay Online QR By UQPAY"
+msgstr ""
+
+#: includes/admin/uqpay-union-qr-settings.php:23
+#: includes/payment-methods/class-wc-gateway-uqpay-union-qr.php:29
+#: uqpay-payment-gateway.php:175
+msgid "UnionPay Online QR (UQPAY)"
+msgstr ""
+
+#: includes/admin/uqpay-union-qr-settings.php:30
+msgid "You can pay by scan the UnionPay QR through the UnionPay APP"
+msgstr ""
+
+#: includes/admin/uqpay-wechat-qr-settings.php:14
+msgid "Enable Wechat Online QR By UQPAY"
+msgstr ""
+
+#: includes/admin/uqpay-wechat-qr-settings.php:23
+#: includes/payment-methods/class-wc-gateway-uqpay-wechat-qr.php:29
+#: uqpay-payment-gateway.php:177
+msgid "Wechat Online QR (UQPAY)"
+msgstr ""
+
+#: includes/admin/uqpay-wechat-qr-settings.php:30
+msgid "You can pay by scan the Wechat QR through the Wechat APP"
+msgstr ""
+
+#: includes/class-wc-gateway-uqpay.php:25
+#: includes/class-wc-gateway-uqpay.php:26
+msgid "UQPAY Payment Gateway"
+msgstr ""
+
+#. translators: 1) merchant register url 2) merchant dashboard url
+#: includes/class-wc-gateway-uqpay.php:28
+msgid "UQPAY Payment. <a href=\"%1$s\" target=\"_blank\">Sign up</a> for a UQPAY merchant, and <a href=\"%2$s\" target=\"_blank\">get your UQPAY account keys</a>."
+msgstr ""
+
+#: includes/class-wc-uqpay-api.php:44
+msgid "There was a problem connecting to the UQPAY API endpoint."
+msgstr ""
+
+#. translators: error message
+#: includes/class-wc-uqpay-order-handler.php:93
+msgid "UQPAY payment failed: %s"
+msgstr ""
+
+#. translators: 1) dollar amount 2) transaction id 3) refund message
+#: includes/class-wc-uqpay-webhook-handler.php:140
+msgid "Refunded %1$s - UQPAY Refund ID: %2$s - Reason: %3$s."
+msgstr ""
+
+#. translators: 1) dollar amount 2) transaction id 3) refund failed reason
+#: includes/class-wc-uqpay-webhook-handler.php:151
+msgid "Failed Refunded %1$s - UQPAY Refund ID: %2$s - Reason: %3$s."
+msgstr ""
+
+#. translators: 1. URL link.
+#: uqpay-payment-gateway.php:32
+msgid "UQPAY requires WooCommerce to be installed and active. You can download %s here."
+msgstr ""
+
+#: uqpay-payment-gateway.php:188
+msgid "Settings"
+msgstr ""
+
+#: uqpay-payment-gateway.php:189
+msgid "Docs"
+msgstr ""
